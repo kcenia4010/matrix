@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Kceni\Desktop\отчеты_ОП\Matrix\vectorlib\MyMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Kceni\Desktop\отчеты_ОП\Matrix\vectorlib\MyVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Kceni\Desktop\отчеты_ОП\Matrix\vectorlib\MyMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Kceni\Desktop\отчеты_ОП\Matrix\vectorlib\MyVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Kceni\Desktop\отчеты_ОП\Matrix\vectorlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E08AD39C-E66E-3B4B-BB59-57B2D38178CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7EBCC58C-42AC-3EC8-A4F7-238B88110A2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
