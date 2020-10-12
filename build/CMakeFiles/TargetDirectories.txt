@@ -1,6 +1,0 @@
-C:/Users/Kceni/Desktop/отчеты_ОП/Matrix/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Kceni/Desktop/отчеты_ОП/Matrix/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Kceni/Desktop/отчеты_ОП/Matrix/build/vector/CMakeFiles/vector.dir
-C:/Users/Kceni/Desktop/отчеты_ОП/Matrix/build/vectorlib/CMakeFiles/vectorlib.dir
-C:/Users/Kceni/Desktop/отчеты_ОП/Matrix/build/test/CMakeFiles/test.dir
-C:/Users/Kceni/Desktop/отчеты_ОП/Matrix/build/gtest/CMakeFiles/gtest.dir

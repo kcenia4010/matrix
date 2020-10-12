@@ -29,7 +29,7 @@ public:
 template<class T>
 Matrix<T>::Matrix(int size)
 {
-	if (size <= 0) throw - 1;
+	if (size <= 0) throw logic_error("invalid_argument");
 	if (size > 0)
 	{
 		x = new Vector<T>[size];
@@ -82,7 +82,7 @@ Vector<T>& Matrix<T>::operator [] (int i)
 {
 	if ((i >= 0) && (i < length))
 		return x[i];
-	else throw - 1;
+	else throw logic_error("invalid_argument");
 }
 
 template<class T>
@@ -111,7 +111,7 @@ int Matrix<T>::operator==(Matrix<T>& m)
 template<class T>
 Matrix<T> Matrix<T>::operator+(Matrix<T>& m)
 {
-	if (this->Length() != m.Length()) throw - 1;
+	if (this->Length() != m.Length()) throw logic_error("length_error");
 	Matrix<T> result (m.Length());
 	for (int i = 0; i < result.Length(); i++)
 		result[i] = (*this)[i] + m[i];
@@ -121,7 +121,7 @@ Matrix<T> Matrix<T>::operator+(Matrix<T>& m)
 template<class T>
 Matrix<T> Matrix<T>::operator-(Matrix<T>& m)
 {
-	if (this->Length() != m.Length()) throw - 1;
+	if (this->Length() != m.Length()) throw logic_error("length_error");
 	Matrix<T> result(m.Length());
 	for (int i = 0; i < result.Length(); i++)
 		result[i] = (*this)[i] - m[i];
@@ -131,7 +131,7 @@ Matrix<T> Matrix<T>::operator-(Matrix<T>& m)
 template<class T>
 Matrix<T> Matrix<T>::operator*(Matrix<T>& m)
 {
-	if (this->Length() != m.Length()) throw - 1;
+	if (this->Length() != m.Length()) throw logic_error("length_error");
 	Matrix<T> result(m.Length());
 
 	for (int i = 0; i < result.Length(); i++)

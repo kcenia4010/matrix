@@ -1,2 +1,0 @@
-C:\Users\Kceni\Desktop\отчеты_ОП\Matrix\build\vectorlib\Debug\vectorlib.pdb
-C:\Users\Kceni\Desktop\отчеты_ОП\Matrix\build\vectorlib\vectorlib.dir\Debug\vectorlib.pdb
